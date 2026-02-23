@@ -1,0 +1,9 @@
+{
+  "query": "ALTER TABLE subscriptions MODIFY COLUMN plan ENUM('free', 'starter', 'basic', 'professional', 'team_small', 'team_medium', 'enterprise') NOT NULL DEFAULT 'free';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3L4QecjokEz4hSw.root --database JGQRuYC42RWC4pGbkyAADP --execute ALTER TABLE subscriptions MODIFY COLUMN plan ENUM('free', 'starter', 'basic', 'professional', 'team_small', 'team_medium', 'enterprise') NOT NULL DEFAULT 'free';",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 1457
+}
